@@ -1,8 +1,9 @@
 zn "%SYS"
 Do ##class(Security.Users).UnExpireUserPasswords("*")
 Do $system.OBJ.ImportDir("/opt/irisbuild/src",,"ck")
+zpm "install iterm"
 zn "USER"
 Do $system.OBJ.ImportDir("/opt/irisbuild/src",,"ck")
-zpm "install webterminal"
-;; zpm "load /opt/irisbuild/ -v":1
+;; zpm "install webterminal"
+zpm "load /opt/irisbuild/ -v":1
 halt
