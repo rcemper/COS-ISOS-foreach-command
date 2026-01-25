@@ -1,3 +1,6 @@
+<img src="https://community.intersystems.com/sites/default/files/inline/images/archived.gif" width=100></img>
+<b>&nbsp;no maintenance or update</b>  
+
 ## FOREACH for ObjectScript   
 As you know ObjectScript has no FOREACH system command nor system function.  
 But it has a wide room for creativity.  
