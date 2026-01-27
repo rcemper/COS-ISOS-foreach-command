@@ -5,5 +5,5 @@ zpm "install iterm"
 zn "USER"
 Do $system.OBJ.ImportDir("/opt/irisbuild/src",,"ck")
 ;; zpm "install webterminal"
-zpm "load /opt/irisbuild/ -v":1
+zpm "load /irisrun/repo/ -v":1
 halt
